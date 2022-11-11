@@ -1,0 +1,140 @@
+body{
+ margin: 0;
+ padding: 0;
+ background-image: url(images/Purple.jpg);
+ height: 100vh;
+ overflow: hidden;
+ font-family: 'Noto Sans TC', sans-serif;
+
+}
+.center{
+    width: 430px;
+    margin: 130px auto;
+    position: relative;
+    filter: drop-shadow( 3mm 3mm 2mm rgb(56, 7, 53));
+}
+.logo{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 8%;
+    margin-top: 15%;
+}
+.logotext{
+    font-size: 100px;
+    font-family: Centra;
+    color: rgb(250, 242, 242);
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 7.5%;
+    filter: drop-shadow( 3mm 3mm 1mm rgb(56, 7, 53));
+}
+.logocp{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    margin-left: 63%;
+    margin-top: 2%;
+    filter: drop-shadow( 3mm 3mm 1mm rgb(56, 7, 53));
+
+}
+.box1{
+    width: 400px;
+    height: 400px;
+    background: #eee2f0;
+    position: absolute;
+    margin-left: 5%;
+    margin-top: -3%;
+    border-radius: 50%;
+    box-shadow: 1mm 1.3mm 2mm rgb(174, 171, 171) inset;
+    filter: drop-shadow( 3mm 3mm 2mm rgb(56, 7, 53));
+}
+.header{
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    padding: 25px 0 30px 25px;
+    background: #93066d;
+    border-bottom: 1px solid #370e3f;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 1mm 1.3mm 2mm rgb(194, 55, 170) inset, -1mm 0mm 2mm rgb(194, 55, 170)  inset;
+}
+.MH{
+    font-size: 15px; 
+    position: absolute;
+}
+.MH-text{
+
+    color: aliceblue;
+}
+.center form{
+    position: absolute;
+    background: white;
+    width: 100%;
+    padding: 60px 20px 0 30px;
+    box-sizing: border-box;
+    border: 1px solid #8e1f72;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 1mm -0.1mm 2mm rgb(174, 171, 171) inset, -1mm -1mm 2mm rgb(174, 171, 171) inset;
+}
+form input{
+    height: 40px;
+    width: 90%;
+    padding: 0 10px;
+    border-radius: 3px;
+    border: 1px solid silver;
+    font-size: 18px;
+    outline: none;
+}
+form input[type="password"]{
+ margin-top: 20px;
+}
+form i{
+    position: absolute;
+    font-size: 25px;
+    color: grey;
+    margin: 15px 0 0 -45px;
+}
+i.fa-lock{
+    margin-top: 29px;
+}
+i.fa-envelope{
+    margin-top: 10px;
+}
+form input[type="submit"]{
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 130px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    line-height: 45px;
+    background: #93066d;
+}
+.cb{
+    width: 40px;
+    height: 15px;
+    font-family: 'Times New Roman', Times, serif;   ;
+    margin-top: 8px;
+    padding-bottom: 8px;
+    text-decoration: none;
+}
+.checklist{
+    font-size: 15px;
+    font-family: sans-serif;
+    color:rgb(39, 37, 37);
+}
+.link{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.language{
+    font-size: 15px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
+.l1{
+    color: #93066d;
+}
